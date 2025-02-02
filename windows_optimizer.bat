@@ -55,7 +55,10 @@ echo.
 del /s /f /q "%TEMP%\*.*"
 del /s /f /q "C:\Windows\Temp\*.*"
 echo [+] Temporary files cleaned successfully!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :CLEAR_CACHE
@@ -67,7 +70,10 @@ ipconfig /flushdns
 echo [+] DNS Cache cleared!
 del /s /f /q "%SystemRoot%\SoftwareDistribution\Download\*.*"
 echo [+] Windows Update cache cleared!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :FREE_RAM
@@ -88,7 +94,10 @@ echo [*] Running RAM optimization...
 :: Run empty loop to clear RAM
 start /b "" cmd /c "for /l %%x in (1,1,10) do rd /s /q"
 echo [+] RAM optimization completed!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :DISK_CLEANUP
@@ -99,7 +108,10 @@ echo.
 echo [*] Cleaning system files...
 cleanmgr /sagerun:1
 echo [+] Disk cleanup completed!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :SYSTEM_STATUS
@@ -121,7 +133,9 @@ echo.
 echo Disk Information:
 wmic logicaldisk get deviceid, freespace, size /format:value
 echo.
-pause
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :BROWSER_CACHE
@@ -133,7 +147,10 @@ del /s /f /q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Cache\*.*"
 del /s /f /q "%LOCALAPPDATA%\Mozilla\Firefox\Profiles\*.default\cache2\entries\*.*"
 del /s /f /q "%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Cache\*.*"
 echo [+] Browser cache cleaned successfully!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :SERVICE_OPT
@@ -147,7 +164,10 @@ echo [+] Superfetch service disabled
 net stop "DiagTrack" >nul 2>&1
 sc config "DiagTrack" start=disabled >nul 2>&1
 echo [+] Diagnostic Tracking service disabled
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :NETWORK_INFO
@@ -160,7 +180,9 @@ echo.
 echo [*] Network Statistics:
 netstat -an | find "ESTABLISHED"
 echo.
-pause
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :DISK_HEALTH
@@ -170,7 +192,9 @@ echo [*] Checking Disk Health...
 echo.
 chkdsk C: /f /r
 echo.
-pause
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :UPDATE_CLEANUP
@@ -184,7 +208,10 @@ del /s /f /q C:\Windows\SoftwareDistribution\*.*
 net start wuauserv
 net start bits
 echo [+] Windows Update files cleaned!
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :NETWORK_RESET
@@ -199,7 +226,10 @@ netsh winsock reset
 netsh int ip reset
 echo [+] Network settings reset successfully!
 echo [!] System restart recommended
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :POWER_OPT
@@ -209,7 +239,10 @@ echo [*] Optimizing Power Settings...
 echo.
 powercfg /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 echo [+] High Performance power plan activated
-timeout /t 3 >nul
+echo.
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :BACKUP
@@ -224,7 +257,9 @@ set /p backup_choice="Select an option (1-2): "
 if "%backup_choice%"=="1" (
     wmic.exe /Namespace:\\root\default Path SystemRestore Call CreateRestorePoint "Windows Optimizer Backup", 100, 7
     echo [+] System Restore Point created!
-    timeout /t 3 >nul
+    echo.
+    echo Press Enter to return to main menu...
+    pause >nul
 )
 goto CATEGORIES
 
@@ -233,8 +268,9 @@ cls
 echo.
 echo    Windows Optimization Tool v2.0
 echo    ============================
-echo    Developed by: imagineSamurai / Nawaf
+echo    Developed by: imagineSamurai (Nawaf)
 echo    Last Updated: %date%
+echo    Visit: https://github.com/imagineSamurai/Windows-Optimizer for new versions
 echo.
 echo    Features:
 echo    - System Cleanup
@@ -242,10 +278,10 @@ echo    - Performance Optimization
 echo    - Network Tools
 echo    - Diagnostic Utilities
 echo.
-echo    Visit: https://github.com/imagineSamurai/Windows-Optimizer
-echo    for updates and new versions
 echo.
-pause
+echo Press Enter to return to main menu...
+pause >nul
+cls
 goto CATEGORIES
 
 :EXIT
@@ -253,5 +289,6 @@ cls
 echo.
 echo Thank you for using Windows Optimization Tool!
 echo.
-timeout /t 2 >nul
+echo Press Enter to return to main menu...
+pause >nul
 exit 
