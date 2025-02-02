@@ -2,7 +2,8 @@
 
 A powerful batch script for optimizing Windows performance through system cleanup and maintenance operations.
 
-![Banner](https://raw.githubusercontent.com/imagineSamurai/Windows-Optimizer/main/banner.png)
+
+<img src="https://github.com/imagineSamurai/Windows-Optimizer/blob/main/Banner.png" alt="Banner" style="width: 50%; margin: auto; display: Flex;">
 
 ## Features 🛠️
 
@@ -77,13 +78,6 @@ A powerful batch script for optimizing Windows performance through system cleanu
 
 - None reported yet. Please create an issue if you find any!
 
-## Future Updates 🔮
-
-- [ ] GUI interface
-- [ ] More customization options
-- [ ] Detailed system analysis
-- [ ] Automated scheduling
-- [ ] Multi-language support
 
 ## Author ✨
 
