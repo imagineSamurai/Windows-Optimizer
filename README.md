@@ -48,9 +48,7 @@ A powerful batch script for optimizing Windows performance through system cleanu
 4. Wait for completion message
 5. Return to menu or exit
 
-## Screenshots 📸
 
-[Add screenshots of your tool in action]
 
 ## Requirements ⚡
 
