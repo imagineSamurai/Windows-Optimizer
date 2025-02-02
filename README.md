@@ -3,7 +3,7 @@
 A powerful batch script for optimizing Windows performance through system cleanup and maintenance operations.
 
 
-<img src="https://github.com/imagineSamurai/Windows-Optimizer/blob/main/Banner.png" alt="Banner" style="width: 50%; margin: auto; display: Flex;">
+<img src="https://github.com/imagineSamurai/Windows-Optimizer/blob/main/Banner.png" alt="Banner" style="width: 100%; margin: auto; display: Flex;">
 
 ## Features 🛠️
 
