@@ -26,9 +26,10 @@ echo.
 echo  [=== Advanced Tools ===]              [=== Additional Options ===]
 echo  [10] Windows Update Cleanup           [13] Backup Settings
 echo  [11] Network Reset                    [14] About
-echo  [12] Power Settings Optimization      [15] Exit
+echo  [12] Power Settings Optimization      [15] Refresh Tool
+echo                                        [16] Exit
 echo.
-set /p choice="Select an option (1-15): "
+set /p choice="Select an option (1-16): "
 
 if "%choice%"=="1" goto CLEAN_TEMP
 if "%choice%"=="2" goto CLEAR_CACHE
@@ -44,7 +45,8 @@ if "%choice%"=="11" goto NETWORK_RESET
 if "%choice%"=="12" goto POWER_OPT
 if "%choice%"=="13" goto BACKUP
 if "%choice%"=="14" goto ABOUT
-if "%choice%"=="15" goto EXIT
+if "%choice%"=="15" goto REFRESH
+if "%choice%"=="16" goto EXIT
 goto CATEGORIES
 
 :CLEAN_TEMP
@@ -283,6 +285,13 @@ echo Press Enter to return to main menu...
 pause >nul
 cls
 goto CATEGORIES
+
+:REFRESH
+cls
+echo.
+echo [*] Refreshing Windows Optimization Tool...
+timeout /t 2 /nobreak >nul
+goto BANNER
 
 :EXIT
 cls
