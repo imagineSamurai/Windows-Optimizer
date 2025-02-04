@@ -271,7 +271,7 @@ echo.
 echo    Windows Optimization Tool v2.0
 echo    ============================
 echo    Developed by: imagineSamurai (Nawaf)
-echo    Last Updated: %date%
+echo    Last Updated: mon 03/02/2025
 echo    Visit: https://github.com/imagineSamurai/Windows-Optimizer for new versions
 echo.
 echo    Features:
