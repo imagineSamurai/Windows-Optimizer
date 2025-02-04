@@ -103,6 +103,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you like this project, please give it a ⭐!
 
+### Support Me ☕
+If you find this tool helpful, you can buy me a coffee: <br>
+<a href='https://ko-fi.com/imagineSamurai'><img src='https://ko-fi.com/img/githubbutton_sm.svg' alt='Buy Me a Coffee at ko-fi.com' style='height: 25px !important;' /></a>
+
+
 ## Disclaimer ⚠️
 
 This tool is provided as-is without any warranty. Always backup your important data before performing system maintenance operations. 
