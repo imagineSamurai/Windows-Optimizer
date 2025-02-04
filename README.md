@@ -36,9 +36,17 @@ A powerful batch script for optimizing Windows performance through system cleanu
 
 ## Installation 📥
 
+### Method 1: Direct Download
 1. Download the `windows_optimizer.bat` file
 2. Right-click the file and select "Run as administrator"
 3. Follow the on-screen menu options
+
+### Method 2: From Releases
+1. Go to the [Releases](https://github.com/imagineSamurai/Windows-Optimizer/releases) page or download the [Latest](https://github.com/imagineSamurai/Windows-Optimizer/releases/tag/new)
+2. Download the latest version of `windows_optimizer.bat`
+3. Right-click the downloaded file and select "Run as administrator"
+4. Follow the on-screen menu options
+
 
 ## Usage 💻
 
