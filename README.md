@@ -42,7 +42,7 @@ A powerful batch script for optimizing Windows performance through system cleanu
 3. Follow the on-screen menu options
 
 ### Method 2: From Releases
-1. Go to the [Releases](https://github.com/imagineSamurai/Windows-Optimizer/releases) page or download the [Latest](https://github.com/imagineSamurai/Windows-Optimizer/releases/tag/new)
+1. Go to the [Releases](https://github.com/imagineSamurai/Windows-Optimizer/releases) page or download the [Latest](https://github.com/imagineSamurai/Windows-Optimizer/releases/latest)
 2. Download the latest version of `windows_optimizer.bat`
 3. Right-click the downloaded file and select "Run as administrator"
 4. Follow the on-screen menu options
