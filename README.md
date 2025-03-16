@@ -1,4 +1,4 @@
-# Windows Optimizer Tool v3.0 🚀
+# Windows Optimizer Tool
 
 A comprehensive Windows optimization and maintenance tool with advanced system management capabilities.
 
