@@ -1,5 +1,15 @@
 # Windows Optimizer Tool
 
+
+<div align="center">
+
+[![Release](https://img.shields.io/github/v/release/imagineSamurai/Windows-Optimizer?style=flat-square&logo=github&color=blue)](https://github.com/imagineSamurai/Windows-Optimizer/releases/latest)
+[![Stars](https://img.shields.io/github/stars/imagineSamurai/Windows-Optimizer?style=flat-square&logo=github)](https://github.com/imagineSamurai/Windows-Optimizer/stargazers)
+[![Download](https://img.shields.io/github/downloads/imagineSamurai/Windows-Optimizer/total?style=flat-square&logo=github&color=52c41a)](https://github.com/imagineSamurai/Windows-Optimizer/releases/latest)
+
+</div>
+
+
 A comprehensive Windows optimization and maintenance tool with advanced system management capabilities.
 
 <img src="https://github.com/imagineSamurai/Windows-Optimizer/blob/main/Banner.png" alt="Banner" style="width: 100%; margin: auto; display: Flex;">
